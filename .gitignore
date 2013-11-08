@@ -1,4 +1,5 @@
 bin/
+out/
 gen/
 png/
 target/
@@ -7,5 +8,11 @@ target/
 *.class
 *.log
 *.iml
+*.ipr
+*.iws
 .DS_Store
+
+# Gradle
+build
+.gradle
 

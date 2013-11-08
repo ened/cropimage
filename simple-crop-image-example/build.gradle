@@ -1,4 +1,8 @@
-apply plugin: 'android-library'
+apply plugin: 'android'
+
+dependencies {
+	compile project(':simple-crop-image-lib')
+}
 
 android {
 	compileSdkVersion 19
